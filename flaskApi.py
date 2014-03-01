@@ -4,7 +4,7 @@ import re
 
 app = Flask(__name__)
     
-# the title() method for a string like "we're paolo's friends"
+# The title() method for a string like "we're paolo's friends"
 # would give back "We'Re Paolo'S Friends". This method, for 
 # the same string returns "We're Paolo's Friends"
 def titlecase(s):
@@ -15,9 +15,9 @@ def titlecase(s):
     
     
     
-# First API. It takes a string with '%20' instead of spaces and  
-# return it back in Json format (using jsonify) with the first  
-# letter of each word capitalized.
+# First API. It takes a string and return it back in 
+# Json format (using jsonify) with the first letter  
+# of each word capitalized.
 @app.route('/api/string/<string:api_string>', methods = ['GET'])
 def get_string(api_string): 
      return jsonify( { 'api_string': titlecase(api_string) } )
