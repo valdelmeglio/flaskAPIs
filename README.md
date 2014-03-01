@@ -31,7 +31,7 @@ You should see the following output:
 * Running on http://127.0.0.1:5000/
 * Restarting with reloader
 ``` 
-Open another terminal (otherwise you can simply use a web browser) and type (where "x" and "y" are the two numbers you want to swap and sum): 
+Open another terminal and type (where "x" and "y" are the two numbers you want to swap and sum): 
 ``` Bash
 curl -i 'http://localhost:5000/api/sum/x&y'
 ``` 
@@ -39,7 +39,12 @@ or
 ``` Bash
 curl -i 'http://localhost:5000/api/string/this%20is%20a%20string'
 ``` 
-where "this%20is%20a%20string" corresponds to the string 'this is a string'
+where "this%20is%20a%20string" corresponds to the string 'this is a string'.
+Otherwise you can just open a web browser go to the corrisponding url:
+
+![My image](images/string_api.png)
+![My image](images/sum_api.png)
+
 ### Methods
 
 
