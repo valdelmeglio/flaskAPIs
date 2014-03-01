@@ -43,6 +43,7 @@ where "this%20is%20a%20string" corresponds to the string 'this is a string'.
 Otherwise you can just open a web browser go to the corrisponding url:
 
 ![My image](images/string_api.png)
+
 ![My image](images/sum_api.png)
 
 ### Methods
