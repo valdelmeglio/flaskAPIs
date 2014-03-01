@@ -16,7 +16,7 @@ The second one accepts two numbers, swap them, sum them and returns the result o
 
 
 ### Setup
-Install Python, Flask, Curl in your environment following the official guides: 
+Install Python, Flask, Curl (not mandatory) in your environment following the official guides: 
 
 * [http://www.python.org][1]
 * [http://flask.pocoo.org/docs/installation/#installation][2]
@@ -40,20 +40,20 @@ or
 curl -i 'http://localhost:5000/api/string/this%20is%20a%20string'
 ``` 
 where "this%20is%20a%20string" corresponds to the string 'this is a string'.
-Otherwise you can just open a web browser go to the corrisponding url:
+Otherwise you can just open a web browser and go to the corresponding url:
 
 ![My image](images/string_api.png)
 
 ![My image](images/sum_api.png)
 
-### Methods
-
+### Content
+The project consists in two simple methods for implement the APIs, an error handler, and a "capitalizer" method.
 
 ``` Python
 @app.route('/api/string/<string:api_string>', methods = ['GET'])
 def get_string(api_string):
 ``` 
-Passing the string "hi my name is valerio" it will return the following Json output:
+Passing it the string "hi my name is valerio" it will return the following Json output:
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
