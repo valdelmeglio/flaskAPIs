@@ -22,6 +22,10 @@ Install Python, Flask, Curl (not mandatory) in your environment following the of
 * [http://flask.pocoo.org/docs/installation/#installation][2]
 * [http://curl.haxx.se/download.html][3]
 
+or type the following command to install all the requirements listed in the requirements.txt file:
+``` Bash
+$ pip install -r requirements.txt
+```
 Once downloaded the moviesRating project, open a terminal window and move to the project folder, then type: 
 ``` Bash
 $ python flaskApi.py
