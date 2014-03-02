@@ -108,6 +108,23 @@ def titlecase(s):
 ``` 
 This method takes a string and returns it back with the first letter of each word capitalized. I prefer the use of this method over the title() method because title() may not give the desired result with apostrophes in contractions and possessives form.
 
+### Testing
+I wrote two simple testing methods to test the APIs:
+``` Python
+def test_sum(self):
+```
+``` Python
+def test_string(self):
+```
+While the app is still running you can type the following command in a new terminal window to launch the unit test:
+``` Bash
+$ python tests.py
+.
+----------------------------------------------------------------------
+Ran 2 test in 0.262s
+
+OK
+``` 
 
 [1]: http://www.python.org
 [2]: http://flask.pocoo.org/docs/installation/#installation
