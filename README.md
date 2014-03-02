@@ -123,7 +123,7 @@ def test_string(self):
 While the app is still running you can type the following command in a new terminal window to launch the unit test:
 ``` Bash
 $ python tests.py
-.
+..
 ----------------------------------------------------------------------
 Ran 2 test in 0.262s
 
