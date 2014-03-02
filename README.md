@@ -24,7 +24,7 @@ Install Python, Flask, Curl (not mandatory) in your environment following the of
 
 Once downloaded the moviesRating project, open a terminal window and move to the project folder, then type: 
 ``` Bash
-python flaskApi.py
+$ python flaskApi.py
 ``` 
 You should see the following output:
 ``` Bash
@@ -33,11 +33,11 @@ You should see the following output:
 ``` 
 Open another terminal and type (where "x" and "y" are the two numbers you want to swap and sum): 
 ``` Bash
-curl -i 'http://localhost:5000/api/sum/x&y'
+$ curl -i 'http://localhost:5000/api/sum/x&y'
 ``` 
 or
 ``` Bash
-curl -i 'http://localhost:5000/api/string/this%20is%20a%20string'
+$ curl -i 'http://localhost:5000/api/string/this%20is%20a%20string'
 ``` 
 where "this%20is%20a%20string" corresponds to the string 'this is a string'.
 Otherwise you can just open a web browser and go to the corresponding url:
@@ -102,6 +102,12 @@ Date: Wed, 26 Feb 2014 21:44:29 GMT
   "error": "Not found"
 }
 ```
+
+``` Python
+def titlecase(s):
+``` 
+This method takes a string and returns it back with the first letter of each word capitalized. I prefer the use of this method over the title() method because title() may not give the desired result with apostrophes in contractions and possessives form.
+
 
 [1]: http://www.python.org
 [2]: http://flask.pocoo.org/docs/installation/#installation

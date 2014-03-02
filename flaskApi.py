@@ -14,8 +14,7 @@ def titlecase(s):
                        lambda mo: mo.group(0)[0].upper() +
                               mo.group(0)[1:].lower(),
                 s)
-    
-    
+
 '''    
 First API. It takes a string and return it back in 
 Json format (using jsonify) with the first letter  
