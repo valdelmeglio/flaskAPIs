@@ -26,7 +26,7 @@ or type the following command to install all the requirements listed in the requ
 ``` Bash
 $ pip install -r requirements.txt
 ```
-Once downloaded the moviesRating project, open a terminal window and move to the project folder, then type: 
+Once downloaded the flaskAPIs project, open a terminal window and move to the project folder, then type: 
 ``` Bash
 $ python flaskApi.py
 ``` 
